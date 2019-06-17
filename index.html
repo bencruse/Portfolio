@@ -7,6 +7,18 @@ Most recent revision:
 <html lang="en">
 <head>
   <title>Benjamin's Portfolio</title>
+  <style media="screen">
+    body{
+      background-color: #46e800;
+    }
+    header, footer{
+      background-color: darkred;
+      color: white;
+    }
+    .border{
+      border: thick solid blue;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,16 +28,18 @@ Most recent revision:
   </header>
 
   <nav>
-    <hr />
+    <hr style="border: thin dotted red;" />
     <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-      <p>Links for our pages</p>
-    <hr />
+      <p><a href="projects.html">Projects</a></p>
+      <p><a href="contacts.html">Contacts</a></p>
+      <p><a href="testimonials.html">Testimonials</a></p>
+    <hr style="width: 50%; border: 2px solid blueviolet;"/>
   </nav>
 
   <section>
-    <article id="about-me">
+    <article class="border" id="about">
       <h2><em>About me</em></h2>
-      <p>I'm a recient college graduate from UNT. I majored in Computer Engineering.
+      <p>I'm a recient college graduate from <a href="https://www.unt.edu">UNT</a>. I majored in Computer Engineering.
         I worked full time and babysat my older sister. I reciently started renting
         a house with my brother and two friends from middle school.</p>
       <p>I currently work as a manager at Pizza Hut. Although, I am looking to close
